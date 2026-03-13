@@ -6,7 +6,7 @@ function ProductCard({ product, onAddToCart }) {
       {product.image && (
         <img
           src={product.image}
-          src={image1.png}
+      
           alt={product.name}
           className="product-image"
         />
